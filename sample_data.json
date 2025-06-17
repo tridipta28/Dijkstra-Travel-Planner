@@ -1,0 +1,170 @@
+{
+  "locations": [
+    {
+      "id": "NYC",
+      "name": "New York City",
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "type": "city",
+      "amenities": ["hotels", "restaurants", "museums", "shopping"],
+      "description": "The largest city in the United States"
+    },
+    {
+      "id": "BOS",
+      "name": "Boston",
+      "latitude": 42.3601,
+      "longitude": -71.0589,
+      "type": "city",
+      "amenities": ["hotels", "restaurants", "historic_sites", "universities"],
+      "description": "Historic city with rich American heritage"
+    },
+    {
+      "id": "PHL",
+      "name": "Philadelphia",
+      "latitude": 39.9526,
+      "longitude": -75.1652,
+      "type": "city",
+      "amenities": ["hotels", "restaurants", "historic_sites", "museums"],
+      "description": "The birthplace of American independence"
+    },
+    {
+      "id": "DC",
+      "name": "Washington DC",
+      "latitude": 38.9072,
+      "longitude": -77.0369,
+      "type": "city",
+      "amenities": ["hotels", "restaurants", "museums", "monuments"],
+      "description": "The nation's capital"
+    },
+    {
+      "id": "ATL",
+      "name": "Atlanta",
+      "latitude": 33.7490,
+      "longitude": -84.3880,
+      "type": "city",
+      "amenities": ["hotels", "restaurants", "entertainment", "business"],
+      "description": "Major business hub in the southeastern United States"
+    },
+    {
+      "id": "MIA",
+      "name": "Miami",
+      "latitude": 25.7617,
+      "longitude": -80.1918,
+      "type": "city",
+      "amenities": ["hotels", "restaurants", "beaches", "nightlife"],
+      "description": "Tropical paradise with beautiful beaches"
+    }
+  ],
+  "transportation_routes": [
+    {
+      "id": "NYC-BOS-drive",
+      "from": "NYC",
+      "to": "BOS",
+      "mode": "driving",
+      "distance_km": 306.0,
+      "travel_time_hours": 4.5,
+      "cost_usd": 50.0,
+      "comfort_rating": 8,
+      "environmental_rating": 3
+    },
+    {
+      "id": "NYC-BOS-train",
+      "from": "NYC",
+      "to": "BOS",
+      "mode": "train",
+      "distance_km": 306.0,
+      "travel_time_hours": 3.5,
+      "cost_usd": 85.0,
+      "comfort_rating": 7,
+      "environmental_rating": 8
+    },
+    {
+      "id": "NYC-BOS-flight",
+      "from": "NYC",
+      "to": "BOS",
+      "mode": "flight",
+      "distance_km": 250.0,
+      "travel_time_hours": 1.5,
+      "cost_usd": 120.0,
+      "comfort_rating": 6,
+      "environmental_rating": 2
+    },
+    {
+      "id": "NYC-PHL-drive",
+      "from": "NYC",
+      "to": "PHL",
+      "mode": "driving",
+      "distance_km": 153.0,
+      "travel_time_hours": 2.0,
+      "cost_usd": 25.0,
+      "comfort_rating": 8,
+      "environmental_rating": 3
+    },
+    {
+      "id": "NYC-PHL-train",
+      "from": "NYC",
+      "to": "PHL",
+      "mode": "train",
+      "distance_km": 153.0,
+      "travel_time_hours": 1.5,
+      "cost_usd": 45.0,
+      "comfort_rating": 7,
+      "environmental_rating": 8
+    },
+    {
+      "id": "PHL-DC-drive",
+      "from": "PHL",
+      "to": "DC",
+      "mode": "driving",
+      "distance_km": 225.0,
+      "travel_time_hours": 3.0,
+      "cost_usd": 35.0,
+      "comfort_rating": 8,
+      "environmental_rating": 3
+    },
+    {
+      "id": "PHL-DC-train",
+      "from": "PHL",
+      "to": "DC",
+      "mode": "train",
+      "distance_km": 225.0,
+      "travel_time_hours": 2.5,
+      "cost_usd": 60.0,
+      "comfort_rating": 7,
+      "environmental_rating": 8
+    },
+    {
+      "id": "DC-ATL-flight",
+      "from": "DC",
+      "to": "ATL",
+      "mode": "flight",
+      "distance_km": 640.0,
+      "travel_time_hours": 2.0,
+      "cost_usd": 180.0,
+      "comfort_rating": 6,
+      "environmental_rating": 2
+    },
+    {
+      "id": "ATL-MIA-drive",
+      "from": "ATL",
+      "to": "MIA",
+      "mode": "driving",
+      "distance_km": 663.0,
+      "travel_time_hours": 9.5,
+      "cost_usd": 95.0,
+      "comfort_rating": 7,
+      "environmental_rating": 3
+    },
+    {
+      "id": "ATL-MIA-flight",
+      "from": "ATL",
+      "to": "MIA",
+      "mode": "flight",
+      "distance_km": 594.0,
+      "travel_time_hours": 2.5,
+      "cost_usd": 150.0,
+      "comfort_rating": 6,
+      "environmental_rating": 2
+    }
+  ]
+}
